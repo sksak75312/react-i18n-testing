@@ -16,7 +16,7 @@ function App() {
       <button type="button" onClick={() => handleI18n('zh')}>
         繁體中文
       </button>
-      <p>{t('Welcome')}</p>
+      <p>{t('welcome', { name: 'Test' })}</p>
     </>
   );
 }
